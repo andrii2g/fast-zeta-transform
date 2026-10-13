@@ -1,0 +1,9 @@
+[package]
+name = "fast-zeta-transform"
+version = "0.1.0"
+edition = "2024"
+description = "An executable exploration of subset transforms and OR-convolution"
+
+[profile.release]
+overflow-checks = true
+
