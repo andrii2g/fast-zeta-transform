@@ -7,6 +7,8 @@
 pub mod convolution;
 pub mod metrics;
 pub mod naive;
+pub mod svg;
+pub mod trace;
 pub mod transform;
 
 pub(crate) fn dimension(values: &[i64]) -> usize {
